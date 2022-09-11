@@ -6,7 +6,7 @@ const gear = require('./resource/data/en/equipment.json')
 app.use(express.json());
 
 app.get("/students",(req,res)=>{
-    res.send(student[1])
+    res.send(student)
 })
 
 app.get("/students/:id",(req,res)=>{
