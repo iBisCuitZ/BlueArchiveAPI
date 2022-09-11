@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
+const port = process.env.PORT || 8000;
 const student = require('./resource/data/en/students.json')
 const gear = require('./resource/data/en/equipment.json')
 
 app.use(express.json());
-
 app.get("/students",(req,res)=>{
     res.send(student)
 })
@@ -25,7 +25,7 @@ app.get("/students/:id",(req,res)=>{
 
 
 
-app.listen(process.env.PORT,()=>{
-    console.log('Node.JS on port 3000');
+app.listen(port,()=>{
+    console.log(`Node.JS on port ${port}`);
 })
 
