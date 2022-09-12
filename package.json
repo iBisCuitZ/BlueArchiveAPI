@@ -2,7 +2,7 @@
   "name": "bluearchiveapi",
   "version": "1.0.0",
   "description": "API that return ()\u001b[Dcurrently) return student list ",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "accepts": "^1.3.8",
     "abab": "^2.0.6",
