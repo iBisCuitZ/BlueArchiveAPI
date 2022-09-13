@@ -3,14 +3,26 @@ html,body {
     background-color: #e5f5f5;
     padding: 0;
     margin:0;
+    
   }
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    font-style:;
+}
+.aronaContainer{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 .row {
     height: 100vh;
 }
 .aronaMail{
-    height:30%;
-    width:30%;
-    position:fixed;
-    top:20%;
-    left:20%;
+    height:400px;
+    width:600px;
+    
+    /* position:fixed; */
+    /* top:30%;
+    left:30%; */
 }
